@@ -1,10 +1,9 @@
 {
-  "name": "ckeditor5-custom-build",
-  "author": "CKSource",
-  "description": "A custom CKEditor 5 build made by the CKEditor 5 online builder.",
+  "name": "ckeditor5-custom-ndt",
+  "author": "thanhnd",
+  "description": "A custom CKEditor 5 build made by the thanhnd.",
   "version": "0.0.1",
-  "license": "SEE LICENSE IN LICENSE.md",
-  "private": true,
+  "license": "MIT",
   "main": "./build/ckeditor.js",
   "types": "./build/ckeditor.d.ts",
   "dependencies": {
@@ -47,5 +46,9 @@
   "scripts": {
     "build": "webpack --mode development",
     "postbuild": "tsc -p ./tsconfig.types.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thanhnd266/ckeditor5Config.git"
   }
 }
