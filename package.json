@@ -1,8 +1,8 @@
 {
-  "name": "ckeditor5-custom-ndt",
+  "name": "ckeditor5-custom-htmlembed",
   "author": "thanhnd",
-  "description": "A custom CKEditor 5 build made by the thanhnd.",
-  "version": "0.0.1",
+  "description": "A custom CKEditor 5 with HTML embed, upload image made by the thanhnd.",
+  "version": "0.0.3",
   "license": "MIT",
   "main": "./build/ckeditor.js",
   "types": "./build/ckeditor.d.ts",
